@@ -6,3 +6,10 @@ Je možno ji prostřednictvím příkazu "source lib_config.sh" importovat do sk
 její funkce pro čtení a zápis parametrů, nebo čtení celých sekcí.
 
 Detailněji použití demonstruje skript "example.sh".
+
+### Implementované funkce
+- **GetParameter ( $jmeno )** - přečtení hodnoty klíče ( v sekci **main** )
+- **SetParameter ( $jmeno $hodnota )** - nastavení hodnoty již existujícího klíče ( v sekci **main** ) 
+- **GetSection ( $jmeno )** - přečtení sekce do proměnné
+
+Před použitím funkcí je třena nastavit jméno a cestu ke konfiguračnímu souboru do proměnné **$cnffile**
