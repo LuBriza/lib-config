@@ -13,3 +13,34 @@ Detailněji použití demonstruje skript "example.sh".
 - **GetSection ( $jmeno )** - přečtení sekce do proměnné
 
 Před použitím funkcí je třena nastavit jméno a cestu ke konfiguračnímu souboru do proměnné **$cnffile**
+
+### Formát konfiguračního souboru
+
+>#
+># konfiguracni soubor pro skript example.sh
+>#
+>[main]
+># jednotlive hlavni parametry
+>name=Example
+>backupdir=/opt/backup
+>examplelog=log-example.txt
+>opt=1
+>
+>[databases]
+>#
+># seznam databazi
+>#
+>databaze_prvni
+>databaze_druha
+>
+>[users]
+>#
+># seznam uživatelů
+>#
+>emil
+>jana
+>jirka
+>
+
+### Známé nedostatky
+
