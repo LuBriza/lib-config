@@ -46,3 +46,9 @@ jirka
 
 ### Známé nedostatky
 
+- Skript při čtení a zápisu nerespektuje sekci, může tedy při složitější 
+struktuře konfiguračního souboru dojít k nepředpokládaným efektům. Nicméně pro 
+drtivou většinu použití je tato implementace použitelná.
+- Neumí přidat do konfiguračního souboru prozatím neexistující klíč, to je třeba 
+provést manuálně.
+- Absence funkcí na přidávání a mazání řádků v sekcích. 
